@@ -1,6 +1,56 @@
+/* index.css */
 
+/* Body */
 body {
-  margin: 0;
-  font-family: sans-serif;
+  font-family: 'Roboto', sans-serif;
   background-color: #f9fafb;
 }
+
+/* Section styling */
+section {
+  padding: 30px;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Buttons */
+button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 15px;
+  font-size: 16px;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+/* Form fields */
+input, textarea, select {
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+  margin-bottom: 10px;
+  transition: border 0.3s;
+}
+
+input:focus, textarea:focus, select:focus {
+  border: 1px solid #4CAF50;
+}
+
+/* Service cards */
+.service-card {
+  background-color: #f0f0f0;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.service-card img {
+  border-radius: 10px;
+}
+

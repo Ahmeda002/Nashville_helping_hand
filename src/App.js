@@ -29,7 +29,7 @@ export default function HomePage() {
 
         <section className="mt-10 text-center">
           <h2 className="text-2xl font-semibold mb-2">Get in Touch</h2>
-          <p className="mb-4">Call or text: <span className="font-bold">(615) 555-1234</span></p>
+          <p className="mb-4">Call or text: <span className="font-bold">(615) 920-9793</span></p>
           <p>Email: <a className="text-blue-600 underline" href="mailto:Ahabdikadir3@gmail.com">Ahabdikadir3@gmail.com</a></p>
 
           {/* Contact Form */}

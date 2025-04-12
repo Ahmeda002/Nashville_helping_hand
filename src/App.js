@@ -21,7 +21,7 @@ export default function HomePage() {
           <ServiceCard 
             title="Rideshare" 
             description="Reliable, safe rides to your destinations." 
-            image="https://images.pexels.com/photos/1048284/pexels-photo-1048284.jpeg" 
+            image="https://vanderbilthustler.com/wp-content/uploads/2024/01/3TR7Rk1pjVKmKFx6_ktEcsTa4cxug67WiClUvxnYo3jB8NtvzEO16yKkXL14m19xjy2FWzBGPDExhPlGQw_e4vZIWpMzMIjEV1o2cdn5yGgCOWuh5bZsF-bioii9.png" 
             alt="Rideshare" 
           />
           <ServiceCard 

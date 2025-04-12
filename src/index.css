@@ -62,6 +62,7 @@ h1 {
   flex-direction: column;
   justify-content: space-between;
   align-items: center; /* Align text and images in the center */
+  width: 100%;
 }
 
 /* Adjust Service Card Grid */
@@ -74,9 +75,9 @@ h1 {
 
 /* Service Card Image Styling */
 .service-card img {
-  width: 10rem; /* Fixed width for square */
-  height: 10rem; /* Fixed height for square */
-  object-fit: cover;
+  width: 100%; /* Make the image take the full width of the container */
+  height: 10rem; /* Fixed height to make sure all images are the same size */
+  object-fit: cover; /* Ensure the image covers the container area without distortion */
   border-radius: 8px; /* Round corners for the square */
   margin-bottom: 1rem;
 }
@@ -148,5 +149,3 @@ footer p {
 .font-bold {
   font-weight: 700;
 }
-
-

@@ -12,12 +12,18 @@ export default function HomePage() {
 
         {/* Service cards with images */}
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-          <ServiceCard title="Residential Cleaning" description="Sparkling clean homes with flexible scheduling and affordable rates." image="https://via.placeholder.com/200x200?text=Cleaning" />
-          <ServiceCard title="Rideshare" description="Reliable, safe rides to your destinations." image="https://via.placeholder.com/200x200?text=Rideshare" />
-          <ServiceCard title="Furniture Assembly" description="From IKEA to custom builds — assembled fast and correctly." image="https://via.placeholder.com/200x200?text=Furniture+Assembly" />
-          <ServiceCard title="Laundry Pickup & Delivery" description="We pick it up, wash, dry, fold, and bring it back fresh." image="https://via.placeholder.com/200x200?text=Laundry" />
-          <ServiceCard title="Errand & Shopping Services" description="Get your errands done and shopping picked up for you." image="https://via.placeholder.com/200x200?text=Errand+Services" />
-          <ServiceCard title="Homework Help / Tutoring" description="Math, English, and more — patient and clear guidance for students." image="https://via.placeholder.com/200x200?text=Tutoring" />
+          <ServiceCard title="Residential Cleaning" description="Sparkling clean homes with flexible scheduling and affordable rates." image="https://images.pexels.com/photos/1063991/pexels-photo-1063991.jpeg" alt="Cleaning" />
+" />
+          <ServiceCard title="Rideshare" description="Reliable, safe rides to your destinations." image="https://images.pexels.com/photos/1048284/pexels-photo-1048284.jpeg" alt="Rideshare" />
+" />
+          <ServiceCard title="Furniture Assembly" description="From IKEA to custom builds — assembled fast and correctly." image="https://images.pexels.com/photos/4226122/pexels-photo-4226122.jpeg" alt="Furniture Assembly" />
+" />
+          <ServiceCard title="Laundry Pickup & Delivery" description="We pick it up, wash, dry, fold, and bring it back fresh." image="https://images.pexels.com/photos/1063991/pexels-photo-1063991.jpeg" alt="Laundry" />
+ />
+          <ServiceCard title="Errand & Shopping Services" description="Get your errands done and shopping picked up for you." image="https://images.pexels.com/photos/1048284/pexels-photo-1048284.jpeg" alt="Errand Services" />
+" />
+          <ServiceCard title="Homework Help / Tutoring" description="Math, English, and more — patient and clear guidance for students." image="https://images.pexels.com/photos/4144238/pexels-photo-4144238.jpeg" alt="Tutoring" />
+ />
         </div>
 
         <section className="mt-10 text-center">

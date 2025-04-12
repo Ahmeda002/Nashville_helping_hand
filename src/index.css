@@ -1,12 +1,12 @@
-/* index.css */
-
 /* Body */
 body {
   font-family: 'Roboto', sans-serif;
   background-color: #f9fafb;
+  margin: 0;
+  padding: 0;
 }
 
-/* Section styling */
+/* Main Section Styling */
 section {
   padding: 30px;
   background-color: white;
@@ -14,24 +14,66 @@ section {
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
-/* Buttons */
+/* Header Background */
+.bg-cover {
+  background-image: url('https://images.pexels.com/photos/1063991/pexels-photo-1063991.jpeg'); /* Hero background image */
+  background-size: cover;
+  background-position: center;
+  height: 60vh; /* Adjust height to fit */
+}
+
+/* Hero Section Title */
+h1 {
+  font-size: 2.5rem;
+  font-weight: bold;
+  text-align: center;
+  color: white;
+  padding-top: 30%;
+}
+
+/* Main Tagline */
+.text-center {
+  text-align: center;
+  color: #333;
+  font-size: 1.25rem;
+  margin-bottom: 1.5rem;
+}
+
+/* Service Card Styling */
+.service-card {
+  background-color: #f0f0f0;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.service-card img {
+  width: 100%;
+  height: 12rem; /* Resize the images to fit the card */
+  object-fit: cover;
+  border-radius: 10px;
+  margin-bottom: 1rem;
+}
+
+/* Button Styling */
 button {
   background-color: #4CAF50;
   color: white;
-  padding: 10px 15px;
+  padding: 12px 20px;
   font-size: 16px;
   border-radius: 5px;
   transition: background-color 0.3s;
+  cursor: pointer;
 }
 
 button:hover {
   background-color: #45a049;
 }
 
-/* Form fields */
+/* Form Fields */
 input, textarea, select {
   width: 100%;
-  padding: 10px;
+  padding: 12px;
   border-radius: 5px;
   border: 1px solid #ddd;
   margin-bottom: 10px;
@@ -42,15 +84,39 @@ input:focus, textarea:focus, select:focus {
   border: 1px solid #4CAF50;
 }
 
-/* Service cards */
-.service-card {
-  background-color: #f0f0f0;
-  padding: 20px;
-  border-radius: 10px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+/* Contact Form */
+form {
+  margin-top: 1.5rem;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: left;
 }
 
-.service-card img {
-  border-radius: 10px;
+form textarea {
+  height: 120px; /* Adjust height for better space in the text area */
 }
 
+/* Footer Message Styling */
+footer p {
+  text-align: center;
+  color: #777;
+  font-size: 0.875rem;
+}
+
+/* Additional Styling */
+.text-blue-600 {
+  color: #3182ce;
+}
+
+.text-sm {
+  font-size: 0.875rem;
+}
+
+.text-gray-600 {
+  color: #718096;
+}
+
+.font-bold {
+  font-weight: 700;
+}

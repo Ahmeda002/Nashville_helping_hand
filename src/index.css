@@ -39,13 +39,12 @@ h1 {
   margin-bottom: 1.5rem;
 }
 
-/* Service Card Container Styling */
+/* Service Card Container (Grid Layout) */
 .service-card-container {
-  display: flex; /* Use flexbox to lay out the cards side by side */
-  flex-wrap: wrap; /* Allow cards to wrap to the next line if there isn't enough space */
-  justify-content: space-around; /* Distribute the cards evenly with space in between */
-  gap: 20px; /* Add space between the cards */
-  margin-top: 20px; /* Add top margin to create space between the header and cards */
+  display: grid; /* Using grid layout */
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); /* Responsive columns */
+  gap: 20px; /* Space between items */
+  margin-top: 20px; /* Margin to separate from top content */
 }
 
 /* Service Card Styling */
@@ -54,14 +53,17 @@ h1 {
   padding: 20px;
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  text-align: center; /* Center content inside the card */
-  width: 250px; /* Fixed width for the cards */
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 .service-card img {
-  width: 100%; /* Make images take up full width of the card */
-  height: 150px; /* Fixed height to avoid resizing issues */
-  object-fit: cover; /* Ensure the image aspect ratio is maintained */
+  width: 100%; /* Ensure images are responsive */
+  height: 150px; /* Set fixed height for images */
+  object-fit: cover; /* Maintain aspect ratio */
   border-radius: 8px;
   margin-bottom: 1rem;
 }
@@ -131,5 +133,6 @@ footer p {
 .font-bold {
   font-weight: 700;
 }
+
 
 

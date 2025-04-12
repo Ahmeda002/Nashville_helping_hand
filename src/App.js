@@ -3,7 +3,7 @@ export default function HomePage() {
     <main className="min-h-screen bg-gray-50 p-6 text-gray-800">
       <section className="max-w-4xl mx-auto bg-white shadow-lg rounded-2xl p-6">
         {/* Header with background image */}
-        <div className="bg-cover bg-center h-64 rounded-2xl mb-6" style={{ backgroundImage: 'url(https://images.pexels.com/photos/1063991/pexels-photo-1063991.jpeg)' }}>
+        <div className="bg-cover bg-center h-64 rounded-2xl mb-6" style={{ backgroundImage: 'url(https://www.google.com/url?sa=i&url=https%3A%2F%2Fbahelpinghand.org%2Fcontact%2F&psig=AOvVaw1Yk-pUQOyQTNcWdoCBisgV&ust=1744504104548000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCICO2bee0YwDFQAAAAAdAAAAABAE)' }}>
           <h1 className="text-4xl font-bold mb-4 text-center text-white pt-24">Nashville Helping Hands</h1>
         </div>
 

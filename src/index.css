@@ -48,10 +48,10 @@ h1 {
 }
 
 .service-card img {
-  width: 100%;
-  height: 12rem; /* Resize the images to fit the card */
+  width: 10rem; /* Fixed width for square */
+  height: 10rem; /* Fixed height for square */
   object-fit: cover;
-  border-radius: 10px;
+  border-radius: 8px; /* Round corners for the square */
   margin-bottom: 1rem;
 }
 
@@ -120,3 +120,4 @@ footer p {
 .font-bold {
   font-weight: 700;
 }
+

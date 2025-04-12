@@ -15,13 +15,14 @@ export default function HomePage() {
           <ServiceCard 
             title="Residential Cleaning" 
             description="Sparkling clean homes with flexible scheduling and affordable rates." 
-            image="https://images.pexels.com/photos/1063991/pexels-photo-1063991.jpeg" 
+            image="https://vanderbilthustler.com/wp-content/uploads/2024/01/3TR7Rk1pjVKmKFx6_ktEcsTa4cxug67WiClUvxnYo3jB8NtvzEO16yKkXL14m19xjy2FWzBGPDExhPlGQw_e4vZIWpMzMIjEV1o2cdn5yGgCOWuh5bZsF-bioii9.png" 
+
             alt="Cleaning" 
           />
           <ServiceCard 
             title="Rideshare" 
             description="Reliable, safe rides to your destinations." 
-            image="https://vanderbilthustler.com/wp-content/uploads/2024/01/3TR7Rk1pjVKmKFx6_ktEcsTa4cxug67WiClUvxnYo3jB8NtvzEO16yKkXL14m19xjy2FWzBGPDExhPlGQw_e4vZIWpMzMIjEV1o2cdn5yGgCOWuh5bZsF-bioii9.png" 
+image="https://nextdaycleaning.com/wp-content/uploads/2020/02/Differences-between-Residential-Cleaning-and-Commercial-Cleaning-1024x683.jpg"
             alt="Rideshare" 
           />
           <ServiceCard 

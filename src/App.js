@@ -3,7 +3,7 @@ export default function HomePage() {
     <main className="min-h-screen bg-gray-50 p-6 text-gray-800">
       <section className="max-w-4xl mx-auto bg-white shadow-lg rounded-2xl p-6">
         {/* Header with background image */}
-        <div className="bg-cover bg-center h-64 rounded-2xl mb-6" style={{ backgroundImage: 'url(https://www.google.com/url?sa=i&url=https%3A%2F%2Fbahelpinghand.org%2Fcontact%2F&psig=AOvVaw1Yk-pUQOyQTNcWdoCBisgV&ust=1744504104548000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCICO2bee0YwDFQAAAAAdAAAAABAE)' }}>
+        <div className="bg-cover bg-center h-64 rounded-2xl mb-6" style={{ backgroundImage: 'url(https://images.pexels.com/photos/1063991/pexels-photo-1063991.jpeg)' }}>
           <h1 className="text-4xl font-bold mb-4 text-center text-white pt-24">Nashville Helping Hands</h1>
         </div>
 
@@ -15,14 +15,13 @@ export default function HomePage() {
           <ServiceCard 
             title="Residential Cleaning" 
             description="Sparkling clean homes with flexible scheduling and affordable rates." 
-            image="https://vanderbilthustler.com/wp-content/uploads/2024/01/3TR7Rk1pjVKmKFx6_ktEcsTa4cxug67WiClUvxnYo3jB8NtvzEO16yKkXL14m19xjy2FWzBGPDExhPlGQw_e4vZIWpMzMIjEV1o2cdn5yGgCOWuh5bZsF-bioii9.png" 
-
+            image="https://nextdaycleaning.com/wp-content/uploads/2020/02/Differences-between-Residential-Cleaning-and-Commercial-Cleaning-1024x683.jpg" 
             alt="Cleaning" 
           />
           <ServiceCard 
             title="Rideshare" 
             description="Reliable, safe rides to your destinations." 
-image="https://nextdaycleaning.com/wp-content/uploads/2020/02/Differences-between-Residential-Cleaning-and-Commercial-Cleaning-1024x683.jpg"
+            image="https://vanderbilthustler.com/wp-content/uploads/2024/01/3TR7Rk1pjVKmKFx6_ktEcsTa4cxug67WiClUvxnYo3jB8NtvzEO16yKkXL14m19xjy2FWzBGPDExhPlGQw_e4vZIWpMzMIjEV1o2cdn5yGgCOWuh5bZsF-bioii9.png"
             alt="Rideshare" 
           />
           <ServiceCard 
@@ -94,15 +93,21 @@ image="https://nextdaycleaning.com/wp-content/uploads/2020/02/Differences-betwee
 // ServiceCard component updated to include images
 function ServiceCard({ title, description, image, alt }) {
   return (
-    <div className="bg-gray-100 rounded-xl p-4 shadow-md hover:shadow-xl transition duration-300">
-      <img 
-        src={image} 
-        alt={alt} 
-        className="w-40 h-40 object-cover rounded-t-xl mb-4" 
-      />
-      <h3 className="text-xl font-semibold mb-2">{title}</h3>
-      <p>{description}</p>
+    <div className="bg-gray-100 rounded-xl p-4 shadow-md hover:shadow-xl transition duration-300 flex items-center">
+      {/* Image on the left */}
+      <div className="w-1/3">
+        <img 
+          src={image} 
+          alt={alt} 
+          className="w-full h-40 object-cover rounded-t-xl mb-4" 
+        />
+      </div>
+
+      {/* Text on the right */}
+      <div className="ml-4 w-2/3">
+        <h3 className="text-xl font-semibold mb-2">{title}</h3>
+        <p>{description}</p>
+      </div>
     </div>
   );
 }
-

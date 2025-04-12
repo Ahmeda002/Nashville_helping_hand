@@ -70,9 +70,14 @@ export default function HomePage() {
 function ServiceCard({ title, description, image }) {
   return (
     <div className="bg-gray-100 rounded-xl p-4 shadow-md hover:shadow-xl transition duration-300">
-      <img src={image} alt={title} className="w-full h-40 object-cover rounded-t-xl mb-4" />
+      <img 
+        src={image} 
+        alt={title} 
+        className="w-full h-48 object-cover rounded-t-xl mb-4" 
+      />
       <h3 className="text-xl font-semibold mb-2">{title}</h3>
       <p>{description}</p>
     </div>
   );
 }
+
